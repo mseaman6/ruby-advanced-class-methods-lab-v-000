@@ -52,8 +52,8 @@ class Song
     song_data = song_info.split(" - ")
     name = song_data[1]
     artist_name = song_data[0]
-    song.name =
-    song.artist_name =
+    #song.name =
+    #song.artist_name =
   end
 
 end
