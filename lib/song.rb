@@ -49,7 +49,6 @@ class Song
 
   def self.new_from_filename(filename)
     song_info = filename.chomp(".mp3")
-    binding.pry
     song.name =
     song.artist_name =
   end
