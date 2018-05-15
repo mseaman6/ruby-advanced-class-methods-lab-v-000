@@ -52,7 +52,7 @@ class Song
     song_data = song_info.split(" - ")
     name = song_data[1]
     artist_name = song_data[0]
-    song = self.create_by_name(name)
+    song = self.new_by_name(name)
     song.artist_name = artist_name
     song
   end
